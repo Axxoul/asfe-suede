@@ -1,0 +1,11 @@
+# Source documents (not part of the website)
+*.docx
+*.txt
+*.doc
+
+# Claude config
+.claude/
+
+# OS files
+.DS_Store
+Thumbs.db

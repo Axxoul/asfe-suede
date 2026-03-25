@@ -1,0 +1,307 @@
+/* ========================================
+   ASFE Suède Campaign — Custom Styles
+   ======================================== */
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Glassmorphism card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 12px;
+}
+
+.glass-card-teal {
+  background: rgba(35, 169, 198, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(35, 169, 198, 0.15);
+  border-radius: 12px;
+}
+
+/* Navbar transition */
+.nav-transparent {
+  background: transparent;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+}
+
+.nav-solid {
+  background: rgba(3, 33, 73, 0.95);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Scroll animations */
+.fade-in-up {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 0.7s ease-out, transform 0.7s ease-out;
+}
+
+.fade-in-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Stagger children */
+.fade-in-up.visible:nth-child(1) { transition-delay: 0ms; }
+.fade-in-up.visible:nth-child(2) { transition-delay: 100ms; }
+.fade-in-up.visible:nth-child(3) { transition-delay: 200ms; }
+.fade-in-up.visible:nth-child(4) { transition-delay: 300ms; }
+.fade-in-up.visible:nth-child(5) { transition-delay: 400ms; }
+.fade-in-up.visible:nth-child(6) { transition-delay: 500ms; }
+.fade-in-up.visible:nth-child(7) { transition-delay: 600ms; }
+
+/* Proposition card accent */
+.proposition-card {
+  border-left: 4px solid #23a9c6;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.proposition-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 30px rgba(35, 169, 198, 0.15);
+}
+
+/* Team member card */
+.team-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.team-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Team photo */
+.team-photo {
+  width: 100%;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 12px 12px 0 0;
+}
+
+.team-photo-featured {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 3 / 4;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 12px;
+}
+
+/* Expandable bio */
+.bio-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.bio-content.expanded {
+  max-height: 600px;
+  opacity: 1;
+}
+
+/* Expandable proposition details */
+.proposition-details {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out, opacity 0.3s ease;
+  opacity: 0;
+}
+
+.proposition-details.expanded {
+  max-height: 500px;
+  opacity: 1;
+}
+
+/* Expand toggle arrow */
+.expand-arrow {
+  transition: transform 0.3s ease;
+  display: inline-block;
+}
+
+.expand-arrow.rotated {
+  transform: rotate(180deg);
+}
+
+/* Hero photo float effect */
+.hero-photo {
+  animation: float 6s ease-in-out infinite;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+/* Pull quote styling */
+.pull-quote {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 1.35rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.9);
+  border-left: 3px solid #23a9c6;
+  padding-left: 1.5rem;
+}
+
+/* Election date badge */
+.election-badge {
+  background: linear-gradient(135deg, #23a9c6, #1a8fa8);
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* Mobile menu overlay */
+.mobile-menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 33, 73, 0.97);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 40;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.mobile-menu-overlay.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.mobile-menu-overlay a {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.mobile-menu-overlay a:hover {
+  color: #23a9c6;
+}
+
+/* Hamburger icon */
+.hamburger span {
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: white;
+  margin: 6px 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.hamburger.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -6px);
+}
+
+/* Form styles */
+.form-input {
+  width: 100%;
+  padding: 0.875rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: 'Inter', sans-serif;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  background: white;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #23a9c6;
+  box-shadow: 0 0 0 3px rgba(35, 169, 198, 0.15);
+}
+
+.form-input::placeholder {
+  color: #9ca3af;
+}
+
+/* Declaration section quote highlights */
+.highlight-quote {
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: #23a9c6;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+/* Subtle section divider */
+.section-divider {
+  width: 60px;
+  height: 3px;
+  background: #23a9c6;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+/* Focus styles for accessibility */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #23a9c6;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Print styles */
+@media print {
+  .no-print { display: none !important; }
+  body { font-size: 12pt; color: #000; }
+  .hero-photo { animation: none; }
+  .fade-in-up { opacity: 1; transform: none; }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .fade-in-up {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+  .hero-photo {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+  * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

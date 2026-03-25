@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ASFE Suède — Côme Frachon | Élections consulaires 2026</title>
+  <meta name="description" content="Côme Frachon, tête de liste ASFE pour les élections des conseillers des Français de l'étranger en Suède. Votez le 31 mai 2026.">
+  <meta property="og:title" content="ASFE Suède — Côme Frachon | Élections consulaires 2026">
+  <meta property="og:description" content="Une équipe engagée pour les Français de Suède. Découvrez nos propositions et notre équipe.">
+  <meta property="og:type" content="website">
+  <!-- UPDATE: Replace the URL below with your actual deployed domain + path -->
+  <meta property="og:image" content="https://YOUR_DOMAIN/Come.jpg">
+  <meta property="og:image:width" content="924">
+  <meta property="og:image:height" content="1232">
+  <meta property="og:image:alt" content="Côme Frachon, tête de liste ASFE Suède">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="ASFE Suède — Côme Frachon | Élections consulaires 2026">
+  <meta name="twitter:description" content="Une équipe engagée pour les Français de Suède. Votez le 31 mai 2026.">
+  <meta name="twitter:image" content="https://YOUR_DOMAIN/Come.jpg">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#23a9c6',
+            'primary-dark': '#1a8fa8',
+            secondary: '#032149',
+            'secondary-dark': '#021633',
+            'light-teal': '#E8F7FA',
+            'asfe-light': '#F5F5F5',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+            serif: ['EB Garamond', 'Georgia', 'serif'],
+          },
+        },
+      },
+    }
+  </script>
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="font-sans text-slate-800 antialiased">
+
+  <!-- ============================================ -->
+  <!-- NAVIGATION -->
+  <!-- ============================================ -->
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 nav-transparent no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        <!-- Logo -->
+        <a href="#accueil" class="flex items-center gap-3">
+          <img
+            src="http://alliancesolidaire.org/wp-content/uploads/2025/08/Design-sans-titre-53-768x256.png"
+            alt="ASFE — Alliance Solidaire des Français de l'Étranger"
+            class="h-10 w-auto"
+          >
+        </a>
+
+        <!-- Desktop Menu -->
+        <div class="hidden md:flex items-center gap-8">
+          <a href="#vision" class="text-white/80 hover:text-white transition-colors text-sm font-medium">Notre Vision</a>
+          <a href="#propositions" class="text-white/80 hover:text-white transition-colors text-sm font-medium">Nos Propositions</a>
+          <a href="#equipe" class="text-white/80 hover:text-white transition-colors text-sm font-medium">Notre Équipe</a>
+          <a href="#engagement" class="text-white/80 hover:text-white transition-colors text-sm font-medium">Notre Engagement</a>
+          <a href="#asfe" class="text-white/80 hover:text-white transition-colors text-sm font-medium">L'ASFE</a>
+          <a href="#contact" class="bg-primary hover:bg-primary-dark text-white px-5 py-2.5 rounded-full text-sm font-semibold transition-colors cursor-pointer">
+            Nous Contacter
+          </a>
+        </div>
+
+        <!-- Hamburger (mobile) -->
+        <button id="hamburger" class="md:hidden hamburger cursor-pointer p-2" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div id="mobile-menu" class="mobile-menu-overlay no-print">
+    <a href="#accueil">Accueil</a>
+    <a href="#vision">Notre Vision</a>
+    <a href="#propositions">Nos Propositions</a>
+    <a href="#equipe">Notre Équipe</a>
+    <a href="#engagement">Notre Engagement</a>
+    <a href="#asfe">L'ASFE</a>
+    <a href="#contact">Nous Contacter</a>
+  </div>
+
+  <main>
+
+    <!-- ============================================ -->
+    <!-- HERO SECTION -->
+    <!-- ============================================ -->
+    <section id="accueil" class="relative bg-gradient-to-br from-secondary to-secondary-dark min-h-screen flex items-center overflow-hidden">
+      <!-- Subtle background pattern -->
+      <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(circle at 20% 50%, #23a9c6 1px, transparent 1px); background-size: 40px 40px;"></div>
+
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32 lg:py-20 relative z-10">
+        <div class="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          <!-- Text Content -->
+          <div class="text-center lg:text-left">
+            <span class="election-badge mb-6">Élections consulaires — 31 mai 2026</span>
+
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mt-6 leading-tight">
+              Côme Frachon
+            </h1>
+
+            <p class="text-primary text-xl sm:text-2xl font-semibold mt-3">
+              Tête de liste ASFE Suède
+            </p>
+
+            <p class="text-white/70 text-lg mt-4 max-w-xl mx-auto lg:mx-0">
+              Une équipe de femmes et d'hommes engagés, installés en Suède et profondément attachés à la communauté française.
+            </p>
+
+            <blockquote class="pull-quote mt-8 max-w-lg mx-auto lg:mx-0">
+              « Vivre à l'étranger ne doit jamais signifier être éloigné des services, de l'écoute ou du soutien de la France. »
+            </blockquote>
+
+            <div class="flex flex-col sm:flex-row gap-4 mt-10 justify-center lg:justify-start">
+              <a href="#propositions" class="bg-primary hover:bg-primary-dark text-white px-8 py-3.5 rounded-full font-semibold transition-colors text-center cursor-pointer">
+                Découvrir nos propositions
+              </a>
+              <a href="#contact" class="border-2 border-white/30 hover:border-white text-white px-8 py-3.5 rounded-full font-semibold transition-colors text-center cursor-pointer">
+                Nous contacter
+              </a>
+            </div>
+          </div>
+
+          <!-- Photo -->
+          <div class="flex justify-center lg:justify-end">
+            <img
+              src="Come.jpg"
+              alt="Côme Frachon, tête de liste ASFE Suède"
+              class="hero-photo w-72 sm:w-80 lg:w-96 object-cover aspect-[3/4] object-top"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- NOTRE VISION (Values) -->
+    <!-- ============================================ -->
+    <section id="vision" class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Section Header -->
+        <div class="text-center max-w-3xl mx-auto fade-in-up">
+          <h2 class="text-3xl sm:text-4xl font-bold text-secondary">Notre Vision</h2>
+          <div class="section-divider mt-4 mb-8"></div>
+          <p class="text-lg text-slate-600 leading-relaxed">
+            Vivre en Suède est une chance. Notre communauté française y est dynamique, engagée et contribue chaque jour au renforcement des liens entre la France et la Suède. Mais l'expatriation s'accompagne aussi de défis bien réels.
+          </p>
+          <p class="text-lg text-slate-600 leading-relaxed mt-4">
+            C'est pour répondre concrètement à ces enjeux que nous avons choisi de présenter notre liste ASFE aux élections consulaires en Suède. Notre objectif est simple : <strong class="text-secondary">porter votre voix, défendre vos intérêts et améliorer concrètement votre quotidien</strong>.
+          </p>
+        </div>
+
+        <!-- Three Values -->
+        <div class="grid md:grid-cols-3 gap-8 mt-16">
+          <!-- Pragmatisme -->
+          <div class="glass-card-teal p-8 text-center fade-in-up">
+            <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-5">
+              <i data-lucide="wrench" class="w-8 h-8 text-primary"></i>
+            </div>
+            <h3 class="text-xl font-bold text-secondary mb-3">Pragmatisme</h3>
+            <p class="text-slate-600">
+              Des solutions concrètes et réalistes face aux difficultés rencontrées par les Français de Suède. Nous agissons, pas seulement en paroles.
+            </p>
+          </div>
+
+          <!-- Proximité -->
+          <div class="glass-card-teal p-8 text-center fade-in-up">
+            <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-5">
+              <i data-lucide="users" class="w-8 h-8 text-primary"></i>
+            </div>
+            <h3 class="text-xl font-bold text-secondary mb-3">Proximité</h3>
+            <p class="text-slate-600">
+              Des représentants accessibles, à l'écoute et disponibles. Nous sommes sur le terrain, en Suède, à vos côtés.
+            </p>
+          </div>
+
+          <!-- Entraide -->
+          <div class="glass-card-teal p-8 text-center fade-in-up">
+            <div class="w-16 h-16 bg-primary/10 rounded-2xl flex items-center justify-center mx-auto mb-5">
+              <i data-lucide="handshake" class="w-8 h-8 text-primary"></i>
+            </div>
+            <h3 class="text-xl font-bold text-secondary mb-3">Entraide</h3>
+            <p class="text-slate-600">
+              Renforcer les liens entre Français et favoriser la solidarité au sein de notre communauté dynamique et soudée.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- NOS PROPOSITIONS -->
+    <!-- ============================================ -->
+    <section id="propositions" class="py-20 lg:py-28 bg-asfe-light">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto fade-in-up">
+          <h2 class="text-3xl sm:text-4xl font-bold text-secondary">Nos Propositions</h2>
+          <div class="section-divider mt-4 mb-8"></div>
+          <p class="text-lg text-slate-600">
+            Pour les années à venir, plusieurs priorités sont essentielles pour notre communauté. Nous nous engageons à agir autour de <strong class="text-secondary">cinq piliers clés</strong>.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-6 mt-16 max-w-5xl mx-auto">
+
+          <!-- 1. Services Consulaires -->
+          <div class="proposition-card bg-white rounded-xl p-8 fade-in-up">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="building-2" class="w-6 h-6 text-primary"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-secondary">Services Consulaires</h3>
+                <p class="text-slate-600 mt-2 text-sm leading-relaxed">
+                  Améliorer l'accès aux services consulaires et réduire les délais de traitement des démarches administratives.
+                </p>
+                <button data-expand-toggle="prop-1" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                  En savoir plus <span class="expand-arrow">&#9660;</span>
+                </button>
+                <div id="prop-1" class="proposition-details mt-3 text-sm text-slate-600 leading-relaxed">
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li>Faciliter l'accès aux services consulaires pour les Français vivant dans toute la Suède.</li>
+                    <li>Soutenir le développement de solutions pratiques, comme les tournées consulaires et l'amélioration des prises de rendez-vous.</li>
+                    <li>Relayer auprès du Consulat les difficultés rencontrées par les usagers afin d'améliorer la qualité du service rendu.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2. Éducation Française -->
+          <div class="proposition-card bg-white rounded-xl p-8 fade-in-up">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="graduation-cap" class="w-6 h-6 text-primary"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-secondary">Éducation Française</h3>
+                <p class="text-slate-600 mt-2 text-sm leading-relaxed">
+                  Soutenir l'enseignement français en Suède et faciliter la reconnaissance des diplômes.
+                </p>
+                <button data-expand-toggle="prop-2" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                  En savoir plus <span class="expand-arrow">&#9660;</span>
+                </button>
+                <div id="prop-2" class="proposition-details mt-3 text-sm text-slate-600 leading-relaxed">
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li>Soutenir les établissements d'enseignement français et les initiatives éducatives francophones.</li>
+                    <li>Accompagner les familles dans leurs démarches liées à la scolarité et aux bourses scolaires.</li>
+                    <li>Favoriser la reconnaissance des diplômes et la continuité des parcours éducatifs entre la France et la Suède.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3. Solidarité et Communauté -->
+          <div class="proposition-card bg-white rounded-xl p-8 fade-in-up">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="heart-handshake" class="w-6 h-6 text-primary"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-secondary">Solidarité et Communauté</h3>
+                <p class="text-slate-600 mt-2 text-sm leading-relaxed">
+                  Renforcer l'entraide entre Français et encourager des initiatives et événements fédérateurs.
+                </p>
+                <button data-expand-toggle="prop-3" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                  En savoir plus <span class="expand-arrow">&#9660;</span>
+                </button>
+                <div id="prop-3" class="proposition-details mt-3 text-sm text-slate-600 leading-relaxed">
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li>Encourager les initiatives associatives et les réseaux d'entraide entre Français.</li>
+                    <li>Soutenir les actions de solidarité envers les Français en situation de vulnérabilité.</li>
+                    <li>Organiser ou accompagner des événements qui renforcent les liens entre les membres de la communauté française.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4. Entreprises et Entrepreneurs -->
+          <div class="proposition-card bg-white rounded-xl p-8 fade-in-up">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="briefcase" class="w-6 h-6 text-primary"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-secondary">Entreprises et Entrepreneurs</h3>
+                <p class="text-slate-600 mt-2 text-sm leading-relaxed">
+                  Accompagner les entrepreneurs français et favoriser les échanges économiques franco-suédois.
+                </p>
+                <button data-expand-toggle="prop-4" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                  En savoir plus <span class="expand-arrow">&#9660;</span>
+                </button>
+                <div id="prop-4" class="proposition-details mt-3 text-sm text-slate-600 leading-relaxed">
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li>Soutenir les initiatives qui favorisent les échanges économiques franco-suédois.</li>
+                    <li>Faciliter la mise en réseau entre entrepreneurs, professionnels et institutions.</li>
+                    <li>Valoriser les entreprises françaises qui participent au rayonnement de la France en Suède.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5. Jeunesse Française -->
+          <div class="proposition-card bg-white rounded-xl p-8 fade-in-up md:col-span-2 md:max-w-xl md:mx-auto">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center flex-shrink-0">
+                <i data-lucide="sparkles" class="w-6 h-6 text-primary"></i>
+              </div>
+              <div class="flex-1">
+                <h3 class="text-lg font-bold text-secondary">Jeunesse Française</h3>
+                <p class="text-slate-600 mt-2 text-sm leading-relaxed">
+                  Aider les jeunes Français à s'intégrer, s'orienter et accéder à des réseaux professionnels et associatifs.
+                </p>
+                <button data-expand-toggle="prop-5" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                  En savoir plus <span class="expand-arrow">&#9660;</span>
+                </button>
+                <div id="prop-5" class="proposition-details mt-3 text-sm text-slate-600 leading-relaxed">
+                  <ul class="list-disc pl-4 space-y-2">
+                    <li>Développer des initiatives favorisant l'intégration et l'orientation des jeunes Français.</li>
+                    <li>Encourager les réseaux professionnels et les programmes de mentorat.</li>
+                    <li>Soutenir les projets associatifs et culturels portés par la jeunesse.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- NOTRE ÉQUIPE -->
+    <!-- ============================================ -->
+    <section id="equipe" class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto fade-in-up">
+          <h2 class="text-3xl sm:text-4xl font-bold text-secondary">Notre Équipe</h2>
+          <div class="section-divider mt-4 mb-8"></div>
+          <p class="text-lg text-slate-600">
+            Nos parcours sont différents — entrepreneurs, parents, professionnels, acteurs associatifs — mais nous partageons la même conviction : les Français de l'étranger ont besoin de représentants proches, accessibles et efficaces.
+          </p>
+        </div>
+
+        <!-- Featured: Côme Frachon -->
+        <div class="mt-16 max-w-4xl mx-auto fade-in-up">
+          <div class="bg-asfe-light rounded-2xl overflow-hidden">
+            <div class="grid md:grid-cols-5 gap-0">
+              <div class="md:col-span-2">
+                <img
+                  src="Come.jpg"
+                  alt="Côme Frachon"
+                  class="team-photo-featured w-full h-full object-cover rounded-none md:rounded-l-2xl md:rounded-r-none"
+                  style="aspect-ratio: auto; min-height: 360px;"
+                >
+              </div>
+              <div class="md:col-span-3 p-8 lg:p-10 flex flex-col justify-center">
+                <span class="election-badge mb-4 self-start">Tête de liste</span>
+                <h3 class="text-2xl font-bold text-secondary">Côme Frachon</h3>
+                <p class="text-slate-600 mt-4 leading-relaxed">
+                  Côme Frachon, Français expatrié, a vécu aux États-Unis pendant 9 ans avant de s'établir en Suède en 2006. Fort de près de 20 ans d'expérience dans ce pays, il bénéficie d'une véritable double culture franco-suédoise et est profondément enraciné dans la communauté locale.
+                </p>
+                <p class="text-slate-600 mt-3 leading-relaxed">
+                  Professionnel dans le domaine de l'événementiel et du marketing, Côme joue un rôle actif dans la promotion de la France en Suède. Engagé dans plusieurs organisations franco-suédoises, il souhaite mettre son expérience et son énergie au service de tous les Français en Suède.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Team Grid -->
+        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+
+          <!-- Delphine Raimbault -->
+          <div class="team-card bg-asfe-light rounded-2xl overflow-hidden fade-in-up">
+            <img src="delphine.jpg" alt="Delphine Raimbault" class="team-photo" loading="lazy">
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-secondary">Delphine Raimbault</h3>
+              <p class="text-primary text-sm font-medium mt-1">15+ ans en Suède · Enseignante · Élue locale</p>
+              <button data-expand-toggle="bio-delphine" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                Lire la biographie <span class="expand-arrow">&#9660;</span>
+              </button>
+              <div id="bio-delphine" class="bio-content mt-3 text-sm text-slate-600 leading-relaxed">
+                <p>Installée en Suède depuis plus de 15 ans, après avoir vécu en Colombie, au Brésil et en Espagne, Delphine porte un parcours profondément international et engagé. Son expérience l'a conduite à travailler à Stockholm, notamment auprès des ambassades de Tunisie et du Burundi.</p>
+                <p class="mt-2">Enseignante de français et de FLE depuis les années 1990, elle a toujours placé la transmission et le dialogue interculturel au cœur de son engagement. Élue et engagée dans la politique locale de sa commune en Suède, elle souhaite mettre son expérience et son sens du terrain au service des Français établis en Suède.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- David Przybylak -->
+          <div class="team-card bg-asfe-light rounded-2xl overflow-hidden fade-in-up">
+            <img src="david.jpeg" alt="David Przybylak" class="team-photo" loading="lazy">
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-secondary">David Przybylak</h3>
+              <p class="text-primary text-sm font-medium mt-1">Triple nationalité · Ingénieur · IA</p>
+              <button data-expand-toggle="bio-david" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                Lire la biographie <span class="expand-arrow">&#9660;</span>
+              </button>
+              <div id="bio-david" class="bio-content mt-3 text-sm text-slate-600 leading-relaxed">
+                <p>Franco-suédois, de triple nationalité française, norvégienne et suédoise, David est parfaitement bilingue et vit en Suède de longue date. Son histoire avec la Suède commence en 1998, lorsqu'il est venu à Göteborg comme étudiant d'échange ERASMUS à Chalmers.</p>
+                <p class="mt-2">Ingénieur de formation, diplômé de l'ENST Bretagne (IMT Atlantique) et titulaire d'un M.Sc. à Chalmers, il a développé l'essentiel de sa carrière en Suède dans la conception de systèmes et le développement logiciel. Il s'engage pour une représentation accessible, pragmatique et proche du terrain.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Florian Michaud -->
+          <div class="team-card bg-asfe-light rounded-2xl overflow-hidden fade-in-up">
+            <img src="florian.jpeg" alt="Florian Michaud" class="team-photo" loading="lazy">
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-secondary">Florian Michaud</h3>
+              <p class="text-primary text-sm font-medium mt-1">Göteborg depuis 2018 · Commerce · Géopolitique</p>
+              <button data-expand-toggle="bio-florian" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                Lire la biographie <span class="expand-arrow">&#9660;</span>
+              </button>
+              <div id="bio-florian" class="bio-content mt-3 text-sm text-slate-600 leading-relaxed">
+                <p>Florian Michaud, originaire de Charente-Maritime, est diplômé de l'école de commerce de Rennes. Installé à Göteborg depuis 2018, il est un Français de l'étranger engagé, attaché au rayonnement de la France et à la défense des intérêts de nos compatriotes.</p>
+                <p class="mt-2">Fort de son parcours académique, Florian a développé des compétences solides dans les domaines géopolitique, économique et social. Il souhaite mettre son énergie, ses connaissances et son sens de l'engagement au service de la communauté française de Suède.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mathieu Castelli -->
+          <div class="team-card bg-asfe-light rounded-2xl overflow-hidden fade-in-up">
+            <img src="mathieu.jpeg" alt="Mathieu Castelli" class="team-photo" loading="lazy">
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-secondary">Mathieu Castelli</h3>
+              <p class="text-primary text-sm font-medium mt-1">Stockholm · Entrepreneur jeux vidéo · 18 ans exp.</p>
+              <button data-expand-toggle="bio-mathieu" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                Lire la biographie <span class="expand-arrow">&#9660;</span>
+              </button>
+              <div id="bio-mathieu" class="bio-content mt-3 text-sm text-slate-600 leading-relaxed">
+                <p>Mathieu Castelli vit à Stockholm avec sa femme et leurs trois enfants depuis sept ans. Auparavant, il résidait à Montréal. Fort d'une expérience de 18 ans en tant qu'entrepreneur, Mathieu a dirigé un studio de jeux mobiles avant de rejoindre un studio spécialisé dans la réalité virtuelle.</p>
+                <p class="mt-2">Passionné par les enjeux de la communauté française à l'étranger, Mathieu est déterminé à promouvoir des initiatives qui renforceront les liens entre les expatriés et leur pays d'origine.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Mathilde Baille -->
+          <div class="team-card bg-asfe-light rounded-2xl overflow-hidden fade-in-up">
+            <img src="mathilde.jpg" alt="Mathilde Baille" class="team-photo" loading="lazy">
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-secondary">Mathilde Baille</h3>
+              <p class="text-primary text-sm font-medium mt-1">Västra Götaland · Hôtellerie de luxe · Commerciale</p>
+              <button data-expand-toggle="bio-mathilde" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                Lire la biographie <span class="expand-arrow">&#9660;</span>
+              </button>
+              <div id="bio-mathilde" class="bio-content mt-3 text-sm text-slate-600 leading-relaxed">
+                <p>Cela fait 2 ans et demi que Mathilde est arrivée avec sa famille en Suède, dans la région de Västra Götaland. Après treize années dans l'hôtellerie de luxe en France et à l'international — notamment au Canada, aux États-Unis et en Australie — elle a entamé un nouveau chapitre en Suède en tant qu'Assistante Commerciale dans l'industrie papetière pour le marché français.</p>
+                <p class="mt-2">En vivant à l'étranger, elle a pris conscience de l'importance de rester connectée à notre culture, à notre langue et à notre communauté. Elle s'engage avec sincérité, énergie et sens du collectif.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Morgane Bigot -->
+          <div class="team-card bg-asfe-light rounded-2xl overflow-hidden fade-in-up">
+            <img src="morgane.png" alt="Morgane Bigot" class="team-photo" loading="lazy">
+            <div class="p-6">
+              <h3 class="text-lg font-bold text-secondary">Morgane Bigot</h3>
+              <p class="text-primary text-sm font-medium mt-1">4 ans en Suède · Électronique · Semiconducteurs</p>
+              <button data-expand-toggle="bio-morgane" aria-expanded="false" class="text-primary text-sm font-semibold mt-3 flex items-center gap-1 cursor-pointer hover:text-primary-dark transition-colors">
+                Lire la biographie <span class="expand-arrow">&#9660;</span>
+              </button>
+              <div id="bio-morgane" class="bio-content mt-3 text-sm text-slate-600 leading-relaxed">
+                <p>Morgane Bigot, originaire de France, a découvert l'Allemagne avant de s'établir en Suède il y a quatre ans grâce à une opportunité professionnelle. Professionnelle dans le secteur de l'électronique et des semiconducteurs, Morgane est régulièrement confrontée aux enjeux géopolitiques mondiaux.</p>
+                <p class="mt-2">Engagée et motivée, Morgane souhaite mettre son expérience au service des Français qui souhaitent s'installer en Suède, offrir un soutien administratif et partager sa connaissance de la culture suédoise.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- NOTRE ENGAGEMENT (Full Declaration) -->
+    <!-- ============================================ -->
+    <section id="engagement" class="py-20 lg:py-28 bg-gradient-to-br from-secondary to-secondary-dark">
+      <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center fade-in-up">
+          <h2 class="text-3xl sm:text-4xl font-bold text-white">Notre Engagement</h2>
+          <div class="section-divider mt-4 mb-12"></div>
+        </div>
+
+        <div class="space-y-6 fade-in-up">
+          <p class="text-white/85 text-lg leading-relaxed">
+            Vivre en Suède est une chance. Notre communauté française y est dynamique, engagée et contribue chaque jour au renforcement des liens entre la France et la Suède. Mais l'expatriation s'accompagne aussi de défis bien réels : démarches administratives parfois complexes, accès aux services consulaires, scolarité des enfants, intégration des jeunes ou encore soutien aux entrepreneurs.
+          </p>
+
+          <p class="highlight-quote">
+            « Les Français de l'étranger ont besoin de représentants proches, accessibles et efficaces. »
+          </p>
+
+          <p class="text-white/85 text-lg leading-relaxed">
+            Nous sommes une équipe de femmes et d'hommes engagés, installés en Suède et profondément attachés à la communauté française qui y vit. Nos parcours sont différents — entrepreneurs, parents, professionnels, acteurs associatifs — mais nous partageons la même conviction.
+          </p>
+
+          <p class="text-white/85 text-lg leading-relaxed">
+            Notre engagement repose sur une idée claire : vivre à l'étranger ne doit jamais signifier être éloigné des services, de l'écoute ou du soutien de la France. Face à la dématérialisation croissante et à l'éloignement administratif, nous voulons être des relais actifs et disponibles, capables de transformer les difficultés rencontrées par les Français de Suède en solutions concrètes.
+          </p>
+
+          <p class="highlight-quote">
+            « Être conseiller des Français de l'étranger, c'est avant tout être présent, à l'écoute et utile. »
+          </p>
+
+          <p class="text-white/85 text-lg leading-relaxed">
+            Notre engagement est clair : être des représentants accessibles, actifs et proches de vous, capables de défendre vos intérêts et de faire avancer concrètement les dossiers qui comptent pour les Français de Suède.
+          </p>
+
+          <p class="text-center mt-10">
+            <span class="text-primary font-serif text-2xl italic">
+              En votant pour la liste ASFE, vous choisissez une équipe engagée pour représenter et servir la communauté française en Suède.
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- L'ASFE -->
+    <!-- ============================================ -->
+    <section id="asfe" class="py-20 lg:py-28 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-4xl mx-auto fade-in-up">
+          <div class="grid md:grid-cols-5 gap-10 items-center">
+            <!-- Logo -->
+            <div class="md:col-span-2 flex justify-center">
+              <img
+                src="http://alliancesolidaire.org/wp-content/uploads/2025/09/Design-sans-titre-59.png"
+                alt="ASFE — Alliance Solidaire des Français de l'Étranger"
+                class="w-48 md:w-64"
+                loading="lazy"
+              >
+            </div>
+            <!-- Text -->
+            <div class="md:col-span-3">
+              <h2 class="text-3xl sm:text-4xl font-bold text-secondary">L'ASFE</h2>
+              <p class="text-primary font-semibold text-lg mt-2">Alliance Solidaire des Français de l'Étranger</p>
+              <div class="section-divider mt-4 mb-6 mx-0"></div>
+              <p class="text-slate-600 leading-relaxed">
+                L'ASFE est le seul mouvement politique dont l'unique objectif est de défendre les intérêts des Français établis hors de France. Indépendante de tout parti national, l'ASFE agit au quotidien pour <strong class="text-secondary">défendre, accompagner et soutenir</strong> les 2 à 3,5 millions de Français expatriés dans plus de 190 pays.
+              </p>
+              <p class="text-slate-600 leading-relaxed mt-4">
+                Avec trois sénateurs élus et des conseillers consulaires présents sur tous les continents, l'ASFE est un relais concret auprès des institutions françaises pour les questions d'éducation, de protection sociale, de fiscalité et de vie quotidienne à l'étranger.
+              </p>
+              <a href="https://alliancesolidaire.org/" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-primary hover:bg-primary-dark text-white px-6 py-3 rounded-full font-semibold transition-colors mt-6 cursor-pointer">
+                <i data-lucide="external-link" class="w-4 h-4"></i>
+                Découvrir l'ASFE
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- CONTACT -->
+    <!-- ============================================ -->
+    <section id="contact" class="py-20 lg:py-28 bg-asfe-light">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto fade-in-up">
+          <h2 class="text-3xl sm:text-4xl font-bold text-secondary">Nous Contacter</h2>
+          <div class="section-divider mt-4 mb-8"></div>
+          <p class="text-lg text-slate-600">
+            Vous avez des questions, des propositions ou vous souhaitez vous engager à nos côtés ? N'hésitez pas à nous écrire.
+          </p>
+        </div>
+
+        <div class="grid md:grid-cols-2 gap-12 mt-16 max-w-5xl mx-auto">
+          <!-- Left: Info -->
+          <div class="fade-in-up">
+            <h3 class="text-2xl font-bold text-secondary mb-6">Rejoignez-nous</h3>
+
+            <div class="bg-primary/10 rounded-2xl p-6 mb-8">
+              <p class="text-secondary font-bold text-lg mb-1">Votez le 31 mai 2026</p>
+              <p class="text-slate-600 text-sm">Élections des conseillers des Français de l'étranger — Suède</p>
+            </div>
+
+            <div class="space-y-5">
+              <!-- ASFE Website -->
+              <a href="https://alliancesolidaire.org/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 text-slate-600 hover:text-primary transition-colors group">
+                <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
+                  <i data-lucide="globe" class="w-5 h-5 text-primary"></i>
+                </div>
+                <div>
+                  <p class="font-semibold text-secondary group-hover:text-primary transition-colors">ASFE — Site officiel</p>
+                  <p class="text-sm">alliancesolidaire.org</p>
+                </div>
+              </a>
+
+              <!-- LinkedIn -->
+              <a href="https://www.linkedin.com/company/asfe-suede/" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4 text-slate-600 hover:text-primary transition-colors group">
+                <div class="w-12 h-12 bg-white rounded-xl flex items-center justify-center shadow-sm group-hover:shadow-md transition-shadow">
+                  <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+                </div>
+                <div>
+                  <p class="font-semibold text-secondary group-hover:text-primary transition-colors">LinkedIn</p>
+                  <p class="text-sm">ASFE Suède</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right: Form -->
+          <div class="fade-in-up">
+            <form id="contact-form" action="https://formspree.io/f/xkoqdajg" method="POST" class="space-y-5">
+              <div>
+                <label for="name" class="block text-sm font-semibold text-secondary mb-2">Nom complet</label>
+                <input type="text" id="name" name="name" required class="form-input" placeholder="Votre nom">
+              </div>
+
+              <div>
+                <label for="email" class="block text-sm font-semibold text-secondary mb-2">Adresse e-mail</label>
+                <input type="email" id="email" name="email" required class="form-input" placeholder="votre@email.com">
+              </div>
+
+              <div>
+                <label for="message" class="block text-sm font-semibold text-secondary mb-2">Message</label>
+                <textarea id="message" name="message" required rows="5" class="form-input resize-none" placeholder="Votre message..."></textarea>
+              </div>
+
+              <div class="flex items-start gap-3">
+                <input type="checkbox" id="volunteer" name="volunteer" value="oui" class="mt-1 w-4 h-4 text-primary border-gray-300 rounded cursor-pointer accent-primary">
+                <label for="volunteer" class="text-sm text-slate-600 cursor-pointer">
+                  Je souhaite m'engager comme bénévole pour la campagne
+                </label>
+              </div>
+
+              <button type="submit" class="w-full bg-primary hover:bg-primary-dark text-white py-3.5 rounded-xl font-semibold transition-colors cursor-pointer text-lg">
+                Envoyer le message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================ -->
+  <!-- FOOTER -->
+  <!-- ============================================ -->
+  <footer class="bg-secondary-dark py-10 no-print">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <div class="flex items-center gap-3">
+          <img
+            src="http://alliancesolidaire.org/wp-content/uploads/2025/08/Design-sans-titre-53-768x256.png"
+            alt="ASFE"
+            class="h-8 w-auto opacity-80"
+          >
+        </div>
+        <p class="text-white/50 text-sm text-center">
+          Site de campagne — Élections des conseillers des Français de l'étranger 2026 — Suède
+        </p>
+        <p class="text-white/40 text-xs">
+          &copy; 2026 ASFE Suède
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Initialize Lucide Icons -->
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <!-- Main JS -->
+  <script src="js/main.js"></script>
+
+</body>
+</html>
